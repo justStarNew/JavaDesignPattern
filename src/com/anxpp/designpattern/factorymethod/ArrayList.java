@@ -1,5 +1,6 @@
 package com.anxpp.designpattern.factorymethod;
 //方便演示而实现的简陋的数组list
+//arrayList 其实就是数组实现的列表
 public class ArrayList<T> implements List<T>{
 	private int size;				//存放的元素个数,会默认初始化为0
 	private Object[] defaultList;	//使用数组存放元素
